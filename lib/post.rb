@@ -9,4 +9,8 @@ class Post
     @title
   end
 
+  def author
+    @author
+  end
+
 end
