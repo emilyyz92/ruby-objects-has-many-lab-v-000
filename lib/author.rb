@@ -15,4 +15,5 @@ attr_accessor :name
   def add_post_by_title(title)
     @posts << title
     Post.new(title).author = self
+  end
 end
