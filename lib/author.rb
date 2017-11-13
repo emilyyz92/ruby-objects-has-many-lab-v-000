@@ -12,9 +12,9 @@ attr_accessor :name
   end
 
   def add_post(title_name)
-    new_title = Post.new(title_name)
+    new_post = Post.new(title_name)
     @posts << title_name
-    new_title.author = self
+    new_post.author = self
   end
 
   def add_post_by_title(title)
