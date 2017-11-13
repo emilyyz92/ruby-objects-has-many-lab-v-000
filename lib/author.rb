@@ -21,4 +21,6 @@ attr_accessor :name
     self.posts << new_post
     new_post.author = self
   end
+
+  
 end
